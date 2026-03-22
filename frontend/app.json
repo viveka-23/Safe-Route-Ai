@@ -17,7 +17,8 @@
       "permissions": [
         "android.permission.ACCESS_FINE_LOCATION",
         "android.permission.ACCESS_COARSE_LOCATION"
-      ]
+      ],
+      "package": "com.viveka09.saferouteai"
     },
     "web": {
       "favicon": "./assets/icon.png"
@@ -32,8 +33,9 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "your-project-id"
+        "projectId": "5bc1a214-79ef-48e6-a376-f5e391b8cb6d"
       }
-    }
+    },
+    "owner": "viveka09"
   }
 }
