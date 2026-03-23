@@ -12,7 +12,11 @@
       "distribution": "internal"
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+       "env": {
+        "EXPO_PUBLIC_API_URL": "https://safe-route-ai-sqwa.onrender.com/api",
+        "EXPO_PUBLIC_SOCKET_URL": "https://safe-route-ai-sqwa.onrender.com"
+      }
     }
   },
   "submit": {
